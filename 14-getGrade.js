@@ -1,6 +1,7 @@
 // 14/366
 // https://www.codewars.com/kata/55cbd4ba903825f7970000f5/train/javascript
 
+
 // Numerical Score 	Letter Grade
 // 90 <= score <= 100 	'A'
 // 80 <= score < 90 	'B'
