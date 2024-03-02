@@ -1,4 +1,6 @@
-function findOutlier(arr) {
+//www.codewars.com/kata/5526fc09a1bbd946250002dc
+
+https: function findOutlier(arr) {
   let oddArr = [];
   let evenArr = [];
 

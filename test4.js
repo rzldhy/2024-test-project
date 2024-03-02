@@ -1,4 +1,6 @@
-function perimeter(n) {
+//www.codewars.com/kata/559a28007caad2ac4e000083
+
+https: function perimeter(n) {
   if (n === 1) {
     return 0;
   }

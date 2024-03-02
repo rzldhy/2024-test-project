@@ -1,4 +1,6 @@
-function diamond(n) {
+//www.codewars.com/kata/5503013e34137eeeaa001648
+
+https: function diamond(n) {
   if (n < 1 || n % 2 === 0) return null;
 
   const mid = Math.floor(n / 2) + 1;
