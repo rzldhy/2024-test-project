@@ -1,20 +1,20 @@
-//www.codewars.com/kata/559a28007caad2ac4e000083
-
-https: function perimeter(n) {
-  if (n === 1) {
-    return 0;
+function perimeter(n) {
+  if (n === 0) {
+    return 4;
   }
 
-  let a = 0;
+  let a = 1;
   let b = 1;
+  let sum = 2; // Initialize with 2 to account for the initial square
 
-  for (let i = 0; i < n; i++) {
-    const temp = a + b;
-    a = b;
-    b = temp;
+  for (let i = 2; i <= n; i++) {
+    const temp = b;
+    b = b + a;
+    a = temp;
+    sum += b; // Add each side length to the sum
   }
 
-  return 4 * (a + b);
+  return 4 * sum;
 }
 
-console.log(perimeter(5));
+console.log(perimeter(7)); // Output should be 216
