@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/559a28007caad2ac4e000083
+
 function perimeter(n) {
   if (n === 0) {
     return 4;
