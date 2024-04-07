@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/54c9fcad28ec4c6e680011aa
+
 function isMerge(s, part1, part2) {
   if (s === "") {
     // If s is empty, both part1 and part2 should also be empty
