@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/58e24788e24ddee28e000053/train/javascript
+
 function simple_assembler(program) {
   const registers = {};
   let i = 0;
