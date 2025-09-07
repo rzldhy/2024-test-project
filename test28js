@@ -3,7 +3,7 @@
 function find4Number(n) {
   const limit = Math.floor(Math.sqrt(n));
   const squares = Array.from({ length: limit + 1 }, (_, i) => i * i);
-
+ 
   let best = null;
 
   for (let a = limit; a > 0; a--) {
